@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LLAMA WORLD </title>
+    <script type="text/javascript" src="functions.js"></script>
+   
+    <link rel="stylesheet" href="Styles/home.css">
+    <link rel="stylesheet" href="Styles/hover.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/slides.css">
+    <link rel="stylesheet" href="Styles/quiz.css">
+</head>
+
+<body onload="myQuiz()">
+    <script type="text/javascript" src="quiz.js"></script>
+    <div class="header" id="myheader">
+        <div id="gif"> 
+            <marquee behavior="scroll" direction="right">
+                <img src="Images/giphy2.gif" width="50" height="50" alt="smile">
+                <img src="Images/giphy2.gif" width="50" height="50" alt="smile">
+                <img src="Images/giphy2.gif" width="50" height="50" alt="smile">
+            </marquee>
+            
+        </div>
+       
+        <a href="#default" class="logo">LLAMA WORLD</a>
+        <div class="header-right">
+          <a class="active" href="index.html">Home</a>
+          <a href="about.html">About Me</a>
+          <a href="#about">About</a>
+        </div>
+      </div>
+      <br>
+
+      <br><br><br><br><br><br>
+
+<div class="myquiz">
+      <div id="quiz"></div>
+      <button id="submit">Get Results</button>
+      <button onclick="window.location.href = 'contact.html'"  id="tryagain">Try Again</button>
+      <div id="results"></div>
+    </div>
+
+    </body>
+</html>
