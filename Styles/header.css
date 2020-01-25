@@ -9,7 +9,13 @@
          position: fixed;
          top: 0;
          height: 80px;
-         width: 100;
+         background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    width: 1480px; 
+         margin-left: auto;
+    margin-right: auto;
 
     
   }
@@ -27,7 +33,7 @@
   
   .header a.logo {
     
-    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     
     font-size: 40px;
@@ -64,19 +70,4 @@
       display: inline-block;
       width: 920px;
       height: 20px;
-  }
-
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .sticky + .backgroundimage {
-    padding-top: 50px;
-  }
-
-  .footer{
-      justify-content: center;
-      align-items: center;
   }

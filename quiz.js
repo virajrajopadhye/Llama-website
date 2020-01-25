@@ -122,9 +122,21 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
                 answerContainers[i].style.color = 'red';
             }
         }
+        if(numCorrect=='0'){
+            //resultsContainer.innerHTML = ;
+            resultsContainer.innerHTML =  numCorrect + ' out of ' + questions.length + '.....OOPS! You can do better ';
+        }
+        if(numCorrect=='1' || numCorrect=='2'  || numCorrect=='3' || numCorrect=='4' ){
+            //resultsContainer.innerHTML = ;
+            resultsContainer.innerHTML =  numCorrect + ' out of ' + questions.length + '.....Cmon, You are getting there ';
+        }
 
-        // show number of correct answers out of total
-        resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
+        if(numCorrect=='5'){
+            
+            resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length + '..... YOU ARE A LLAMA LORD';
+            resultsContainer.style.c
+        }
+      
     }
 
     // show questions right away
