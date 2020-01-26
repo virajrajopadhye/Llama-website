@@ -1,51 +1,50 @@
-
- body, html {
-    height: 100%;
-    margin: 10px;
-  
-  }
-
-  #backgroundimage{
-
-    /* background-image: url("llama.jpg"); */
-    background-image: url("llama.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    height: 100%;
-    width: 100%;
-
-  }
-
+body,
+html {
+  height: 100%;
  
 
-  #typewriter{
-      width: 50%;
-      color: white;
-     
-        padding-left: 20px;
-        font-size: 60px;
-        font-weight: 300;
-        font-family: cursive;
-      
-  }
+}
 
-  .title{
-    width: 25rem;
-    left: 40em;
-    right: 100em;
-    margin: auto;
-    position: absolute;
-    font-size: x-large;
-  }
+#backgroundimage {
 
-  .align-left{
-    float: left;
-    text-align: left;
-  }
-  .align-right{
-    float: right;
-    text-align: right;
-  }
+  /* background-image: url("llama.jpg"); */
+  background-image: url("llama.jpg");
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  height: 100%;
+  width: 100%;
 
-  
+}
+
+
+
+#typewriter {
+  width: 50%;
+  color: white;
+
+  padding-left: 20px;
+  font-size: 60px;
+  font-weight: 300;
+  font-family: cursive;
+
+}
+
+.title {
+  width: 25rem;
+  left: 40em;
+  right: 100em;
+  margin: auto;
+  position: absolute;
+  font-size: x-large;
+}
+
+.align-left {
+  float: left;
+  text-align: left;
+}
+
+.align-right {
+  float: right;
+  text-align: right;
+}

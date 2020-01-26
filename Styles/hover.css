@@ -1,27 +1,25 @@
 :root {
-    --mainColor: black;
-  }
+  --mainColor: black;
+}
 
 
-  a {
-    background:
-       linear-gradient(
-         to bottom, var(--mainColor) 0%,
-         var(--mainColor) 100%
-       );
-        background-position: 0 100%;
-        background-repeat: repeat-x ;
-        
-         background-size: 0px 5px; 
-     
-    text-decoration: none;
-    transition: background-size .2s;
+a {
+  background:
+    linear-gradient(to bottom, var(--mainColor) 0%,
+      var(--mainColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
 
-    color: white;
-      margin-top: 20px;
-      text-decoration: none;
-  }
-  
-  a:hover {
-    background-size: 100% 100%;
-  }
+  background-size: 0px 5px;
+
+  text-decoration: none;
+  transition: background-size .2s;
+
+  color: white;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-size: 100% 100%;
+}
