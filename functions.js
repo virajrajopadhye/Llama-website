@@ -1,6 +1,6 @@
 var i = 0;
 var txt = 'Hi, my name is LLAMANATOR. I am a domesticated South American camelid';
-var speed = 80;
+var speed = 80; //speed of typing
 
 function typeWriter() {
   if (i < txt.length) {

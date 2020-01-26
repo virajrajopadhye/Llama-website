@@ -14,8 +14,11 @@
   <link rel="stylesheet" href="Styles/footer.css">
 </head>
 
-<body onload="myQuiz()">
+<body onload="myQuiz()"> <!--on load, run this function-->
   <script type="text/javascript" src="quiz.js"></script>
+
+<!-- Header Block -->
+
   <div class="header" id="myheader">
     <div id="gif">
       <marquee behavior="scroll" direction="right">
@@ -26,7 +29,7 @@
 
     </div>
 
-    <a href="#default" class="logo">LLAMA WORLD</a>
+    <a href="index.html" class="logo">LLAMA WORLD</a>
     <div class="header-right">
       <a class="active" href="index.html">Home</a>
       <a href="about.html">About Me</a>
@@ -36,17 +39,23 @@
   <br>
 
   <br><br><br><br><br><br>
+ 
+  <!-- Quiz Module -->
 
   <div class="myquiz infotitle">
+    <div class="quiztitle">Get to know your Llama</div><br>
     <div id="quiz"></div>
     <button id="submit">Get Results</button>
     <button onclick="window.location.href = 'quiz.html'" id="tryagain">Try Again</button>
     <div id="results"></div>
   </div>
 
-
+  <br><br><br>
 
   <br>
+
+<!-- Footer Block -->
+
   <footer class="infotitle">
     <div class="facebook" onclick="window.location.href = 'https://www.facebook.com/vizz29'"></div>
     <div class="instagram" onclick="window.location.href = 'https://www.instagram.com/viraj_rajopadhye/'"></div>
