@@ -1,3 +1,16 @@
+body{
+    background: linear-gradient( rgba(225, 236, 200, 0.789), 
+    rgba(255, 255, 255, 0.918)), url("back3.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100%; */
+  width: 100%;
+
+}
+
+
+
 .question{
 	font-weight: 600;
 }

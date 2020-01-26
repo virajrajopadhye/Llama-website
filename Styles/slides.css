@@ -1,5 +1,18 @@
+body {
+    background: linear-gradient(rgba(225, 236, 200, 0.789),
+            rgba(255, 255, 255, 0.918)), url("back3.jpg");
+    background-position: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 99%;
+
+}
+
+
 .mySlides {
-    width: 900px;
+    width: 800px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -67,7 +80,8 @@
     background-image: url("llamadp.png");
 
 }
-.myform{
+
+.myform {
 
     height: 700px;
     width: 800px;
@@ -76,16 +90,18 @@
     -moz-box-shadow: inset 0 0 10px #000000;
     -webkit-box-shadow: inset 0 0 10px #000000;
     box-shadow: inset 0 0 10px #000000;
-    padding:10px;
+    padding: 10px;
+    background-color: white;
 }
 
 
-.formtitle{
+.formtitle {
     text-align: center;
     font-size: 60px;
     margin-top: 9px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 hr {
     width: 70%;
     margin-left: auto;
@@ -95,11 +111,12 @@ hr {
     margin-right: auto;
     overflow: hidden;
     border-style: inset;
-   
-    }
+
+}
 
 
-input[type=text], select {
+input[type=text],
+select {
     width: 100%;
     padding: 30px 20px;
     margin: 8px 0;
@@ -108,10 +125,11 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
     background: #cccccc;
-  }
-  
-  
-  input[type=email], select {
+}
+
+
+input[type=email],
+select {
     width: 100%;
     padding: 30px 20px;
     margin: 8px 0;
@@ -120,10 +138,10 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
     background: #cccccc;
-  }
-  
-  
-  input[type=submit] {
+}
+
+
+input[type=submit] {
     width: 100%;
     background-color: #297;
     color: white;
@@ -132,4 +150,4 @@ input[type=text], select {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
